@@ -25,3 +25,4 @@ Actualizar la identidad corporativa de la landing page de "Muñoz Transporte" a 
 - El logotipo original contiene bordes laterales en color crema/blanco cálido. No debe insertarse directamente sin recorte porque alteraría las proporciones y se vería desalineado en contenedores circulares.
 - En pantallas móviles, el header debe mantener el logo visible y centrado sin desbordar los botones o enlaces.
 - Todos los mensajes preconfigurados de WhatsApp (`msg`) deben reflejar el nuevo nombre "Transportes Milano".
+- Nota: Si `git commit` arroja el error `fatal: Unable to create '.git/index.lock': Permission denied` dentro del sandbox de Windows, ejecutar la operación Git con elevación (`BypassSandbox: true`).

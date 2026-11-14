@@ -26,3 +26,4 @@ Actualizar la identidad corporativa de la landing page de "Muñoz Transporte" a 
 - En pantallas móviles, el header debe mantener el logo visible y centrado sin desbordar los botones o enlaces.
 - Todos los mensajes preconfigurados de WhatsApp (`msg`) deben reflejar el nuevo nombre "Transportes Milano".
 - Nota: Si `git commit` arroja el error `fatal: Unable to create '.git/index.lock': Permission denied` dentro del sandbox de Windows, ejecutar la operación Git con elevación (`BypassSandbox: true`).
+- Nota: Al reemplazar bloques complejos de HTML en scripts de Python, preferir búsqueda exacta de strings (`str.replace`) en lugar de expresiones regulares con comillas escapadas, para evitar errores de coincidencia por caracteres especiales.
